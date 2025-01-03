@@ -1,0 +1,9 @@
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+@use '@angular/material' as mat;
+
+:root {
+  @include mat.form-field-overrides((
+    filled-caret-color: orange,
+    filled-focus-active-indicator-color: red,
+  ));
+}

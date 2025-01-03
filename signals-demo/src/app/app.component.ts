@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { VehicleSelectionComponent } from './components/vehicle-selection/vehicle-selection.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, VehicleSelectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

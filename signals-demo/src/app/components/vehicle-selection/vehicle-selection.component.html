@@ -1,0 +1,22 @@
+<div class="container ">
+    <h4>Star Wars Vehicle Sales</h4>
+    <p>
+        <mat-form-field>
+            <mat-label>Select a vehicle</mat-label>
+            <mat-select class="select" [(ngModel)]='selectedVehicle'>
+                @for(vehicle of vehicles() ; track vehicle) {
+                <mat-option [value]='vehicle'>{{vehicle.name}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field>
+            <mat-label>Quantity: </mat-label>
+            <input type='number' matInput placeholder="quantity" [(ngModel)]='quantity' />
+        </mat-form-field>
+    </p>
+    <div><mat-label>Vehicle:</mat-label><span> {{ selectedVehicle()?.name }}</span></div>
+    <div><mat-label>Price: </mat-label> <span>{{ selectedVehicle()?.cost_in_credits}}</span></div>
+    <div><mat-label>Total:</mat-label><span [style.color]='color()'>{{total()}}</span></div>
+</div>

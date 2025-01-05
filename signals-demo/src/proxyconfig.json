@@ -1,0 +1,12 @@
+{
+    "/*": {
+        "target": "https://localhost:3000",
+        "secure": false,
+        "pathRewrite": {
+            "^/": ""
+        },
+        "logLevel": "debug",
+        "changeOrigin": true
+
+    }
+}

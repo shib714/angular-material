@@ -1,0 +1,139 @@
+{
+    "count": 12,
+    "next": "",
+    "previous": null,
+    "employees": [
+        {
+            "employeeId": 4542,
+            "employeeName": "Angular Developer-12",
+            "contactNo": "1234567890",
+            "emailId": "Data1234@gmail.com",
+            "deptId": 2556,
+            "password": "Data111223333",
+            "gender": "Female",
+            "role": "Employee",
+            "createdDate": "2024-12-23T00:00:00"
+        },
+        {
+            "employeeId": 4544,
+            "employeeName": "pawan kumar 1",
+            "contactNo": "1234",
+            "emailId": "chetan@gmail.com",
+            "deptId": 2557,
+            "password": "3234234",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2024-12-25T00:00:00"
+        },
+        {
+            "employeeId": 4569,
+            "employeeName": "pushpa",
+            "contactNo": "6377697558",
+            "emailId": "makwana@gmail.com",
+            "deptId": 2563,
+            "password": "123456789",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2024-12-26T00:00:00"
+        },
+        {
+            "employeeId": 4598,
+            "employeeName": "Miani",
+            "contactNo": "1907221",
+            "emailId": "IT@gmail.com",
+            "deptId": 2554,
+            "password": "12345",
+            "gender": "Female",
+            "role": "Employee",
+            "createdDate": "0001-01-01T00:00:00"
+        },
+        {
+            "employeeId": 4738,
+            "employeeName": "virat-kohli",
+            "contactNo": "7833444553",
+            "emailId": "virat@gmail.com",
+            "deptId": 2556,
+            "password": "vebvsevs",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2025-01-01T00:00:00"
+        },
+        {
+            "employeeId": 4802,
+            "employeeName": "hello-world 1",
+            "contactNo": "111",
+            "emailId": "hello@email.com",
+            "deptId": 2554,
+            "password": "333333",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "0001-01-01T00:00:00"
+        },
+        {
+            "employeeId": 4806,
+            "employeeName": "Subbbu",
+            "contactNo": "1122334455",
+            "emailId": "subbu22@gmail.com",
+            "deptId": 2560,
+            "password": "1122334455",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2025-01-02T00:00:00"
+        },
+        {
+            "employeeId": 4812,
+            "employeeName": "iron",
+            "contactNo": "111",
+            "emailId": "iron@email.com",
+            "deptId": 2555,
+            "password": "333333",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "0001-01-01T00:00:00"
+        },
+        {
+            "employeeId": 4830,
+            "employeeName": "anil",
+            "contactNo": "9087654321",
+            "emailId": "abc@cc.in",
+            "deptId": 2556,
+            "password": "112233",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2025-01-02T00:00:00"
+        },
+        {
+            "employeeId": 4916,
+            "employeeName": "varan",
+            "contactNo": "1421421",
+            "emailId": "vara@gmail.com",
+            "deptId": 2555,
+            "password": "111222",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "0001-01-01T00:00:00"
+        },
+        {
+            "employeeId": 4959,
+            "employeeName": "TyagiSaurabh",
+            "contactNo": "124",
+            "emailId": "test@gmail.com",
+            "deptId": 2587,
+            "password": "123",
+            "gender": "Male",
+            "role": "Employee",
+            "createdDate": "2025-01-04T00:00:00"
+        },
+        {
+            "employeeId": 4994,
+            "employeeName": "Rahul ap 1",
+            "contactNo": "75998889",
+            "emailId": "arun@gmail.com",
+            "deptId": 2613,
+            "password": "54546555",
+            "gender": "male",
+            "role": "Employee",
+            "createdDate": "2025-01-04T00:00:00"
+        }
+    ]
+}

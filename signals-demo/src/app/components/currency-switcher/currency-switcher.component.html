@@ -1,0 +1,25 @@
+<!-- <div class="btn-group">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" (click)="showItems = ! showItems">
+      {{ currencyInfo().currency }}
+    </button>
+    <div class="dropdown-menu show" [class.show]="showItems">
+      <a class="dropdown-item" (click)="changeCurrency('USD')">USD ($)</a>
+      <a class="dropdown-item" (click)="changeCurrency('EUR')">EUR (€)</a>
+      <a class="dropdown-item" (click)="changeCurrency('GBP')">GBP (£)</a>
+    </div>
+  </div> -->
+  <!-- <mat-form-field>
+    <mat-label (click)="showItems = ! showItems">{{ currencyInfo().currency }}</mat-label>
+    <select matNativeControl required >
+      <option  (click)="changeCurrency('USD')">USD ($)</option>
+      <option (click)="changeCurrency('EUR')">EUR (€)</option>
+      <option (click)="changeCurrency('GBP')">GBP (£)</option>
+    </select>
+  </mat-form-field> -->
+
+<button mat-button [matMenuTriggerFor]="belowMenu">{{ currencyInfo().currency }}</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item (click)="changeCurrency('USD')">USD ($)</button>
+  <button mat-menu-item (click)="changeCurrency('EUR')">EUR (€)</button>
+  <button mat-menu-item (click)="changeCurrency('GBP')">GBP (£)</button>
+</mat-menu>

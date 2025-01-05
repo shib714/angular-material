@@ -7,3 +7,27 @@
     filled-focus-active-indicator-color: red,
   ));
 }
+.vehicle-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+
+.vehicle-container mat-form-field {
+  width: 220px;
+}
+
+.vehicle-container form {
+  margin-bottom: 20px;
+}
+
+.vehicle-container form > * {
+  margin: 12px 0;
+}
+
+.vehicle-container .mat-radio-button {
+  margin: 0 12px;
+}
+
+.vehicle-form-fields {
+  display: flex;
+  align-items: flex-start;
+}

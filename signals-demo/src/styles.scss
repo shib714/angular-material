@@ -14,15 +14,15 @@ $dark-theme: mat.define-theme((color: (theme-type: dark,
 
 @include mat.core();
 
-.dark-theme {
-  @include mat.all-component-colors($dark-theme);
-  --mat-toolbar-container-background-color: #{mat.get-theme-color($dark-theme, primary, 30)};
+// .dark-theme {
+//   @include mat.all-component-colors($dark-theme);
+//   --mat-toolbar-container-background-color: #{mat.get-theme-color($dark-theme, primary, 30)};
 
-}
+// }
 
-.light-theme {
-  --mat-toolbar-container-background-color: #{mat.get-theme-color($light-theme, primary, 80)};
-}
+// .light-theme {
+//   --mat-toolbar-container-background-color: #{mat.get-theme-color($light-theme, primary, 80)};
+// }
 
 html {
   color-scheme: light dark;
